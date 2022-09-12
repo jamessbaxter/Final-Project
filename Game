@@ -74,3 +74,17 @@ echo "                    | "
 echo "      YOU LOSE!!      "
 }
 
+##The main menu where you will be asked to choose the categories.
+##And also if the user wants custom words, he/she can add the file path
+function menu() {
+    ## Supresses the error message that comes with the usage of GTK+
+    exec 2> /dev/null
+    ## Uses the zenity module, which comes pre-installed with Debian
+    selection=$(zenity --list "Play the game" "Choose a topic" "Exit" --column="" --text="Choose an option" --title="Game options" --cancel-label="Quit")
+    case "$selection" in
+        "Play the game") main;;
+        "Choose a topic") choice;;
+        "Exit") exit;;
+    esac
+    echo
+}
