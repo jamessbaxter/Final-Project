@@ -1,0 +1,76 @@
+##These are the stick figures to be displayed if the user does a wrong guess
+
+
+function wrong1 {
+echo
+echo "          :(          "
+echo
+echo
+echo
+echo
+echo
+echo
+}
+function wrong2 {
+echo
+echo "          :(          "
+echo "           |          "
+echo
+echo
+echo
+echo
+echo
+}
+function wrong3 {
+echo
+echo "          :(          "
+echo "           |\         "
+echo
+echo
+echo
+echo
+echo
+}
+function wrong4 {
+echo
+echo "          :(          "
+echo "          /|\         "
+echo
+echo
+echo
+echo
+echo
+}
+function wrong5 {
+echo
+echo "          :(          "
+echo "          /|\         "
+echo "          /           "
+echo
+echo
+echo
+echo
+}
+function wrong6 {
+echo
+echo "          :(          "
+echo "          /|\         "
+echo "          / \         "
+echo
+echo
+echo
+echo
+}
+function wrong7 {
+echo "           __________ "
+echo "           |        | "
+echo "          :(        | "
+echo "          /|\       | "
+echo "          / \       | "
+echo "                    | "
+echo "                    | "
+echo "                    | "
+echo "                    | "
+echo "      YOU LOSE!!      "
+}
+
