@@ -32,3 +32,43 @@ b
 else
 start
 fi
+
+function beginning2 {
+start
+echo "
+read userinput
+case $userinput in
+    b) letter1 ;;
+    a) letter2 ;;
+    s) letter3 ;;
+    h) letter4 ;;
+    bash) win ;;
+    *) fail2 ;;
+esac
+}
+
+function fail2 {
+echo " Ope tat's not quote right :( "
+wrong2
+beginning3
+}
+
+function beginning3 {
+start
+echo "
+read userinput
+case $userinput in
+    b) letter1 ;;
+    a) letter2 ;;
+    s) letter3 ;;
+    h) letter4 ;;
+    bash) win ;;
+    *) fail3 ;;
+esac
+}
+
+function fail3 {
+echo " Ope tat's not quote right :( "
+wrong3
+beginning4
+}
