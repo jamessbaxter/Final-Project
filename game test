@@ -1,0 +1,34 @@
+#! /bin/bash
+
+function b {
+echo "            b "
+}
+
+function a {
+echo "            a "
+}
+
+function s {
+echo "            s "
+}
+
+function h {
+echo "            h "
+}
+
+function start {
+echo "            _ "
+echo "            _ "
+echo "            _ "
+echo "            _ "
+}
+
+start
+echo "                                  Please guess a letter! "
+read userinput
+if $userinput = "b"
+then
+b
+else
+start
+fi
