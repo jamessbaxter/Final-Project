@@ -3,12 +3,14 @@
 ## This is the function that shows when you initially start or guess the right word
 
 function start {
+clear
 echo "              _ _ _ _ "
 echo
 echo "                      Four letter word!"
 }
 
 function win {
+clear
 echo "                  You've Won!"
 echo "                              The word was BASH"
 }
@@ -187,6 +189,7 @@ beginning6
 ##These are the ladder steps to be able to go from the start of the hangman to the end of the hangman on failed attempts
 
 function beginning6 {
+clear
 start
 echo "          Please guess a letter or word"
 read userinput
@@ -206,6 +209,7 @@ wrong7
 }
 
 function beginning5 {
+clear
 start
 echo "          Please guess a letter or word"
 read userinput
@@ -225,6 +229,7 @@ wrong6
 }
 
 function beginning4 {
+clear
 start
 echo "          Please guess a letter or word"
 read userinput
@@ -244,6 +249,7 @@ wrong5
 }
 
 function beginning3 {
+clear
 start
 echo "          Please guess a letter or word"
 read userinput
@@ -263,6 +269,7 @@ wrong4
 }
 
 function beginning2 {
+clear
 start
 echo "          Please guess a letter or word"
 read userinput
@@ -282,6 +289,7 @@ wrong3
 }
 
 function beginning1 {
+clear
 start
 echo "          Please guess a letter or word"
 read userinput
@@ -301,6 +309,7 @@ wrong2
 }
 
 function beginning {
+clear
 start
 echo "          Please guess a letter or word"
 read userinput
@@ -322,6 +331,7 @@ wrong1
 ##These are the stick figures to be displayed if the user does a wrong guess
 
 function wrong1 {
+clear
 echo
 echo "          :(          "
 echo
@@ -333,6 +343,7 @@ echo
 beginning1
 }
 function wrong2 {
+clear
 echo
 echo "          :(          "
 echo "           |          "
@@ -344,6 +355,7 @@ echo
 beginning2
 }
 function wrong3 {
+clear
 echo
 echo "          :(          "
 echo "           |\         "
@@ -355,6 +367,7 @@ echo
 beginning3
 }
 function wrong4 {
+clear
 echo
 echo "          :(          "
 echo "          /|\         "
@@ -366,6 +379,7 @@ echo
 beginning4
 }
 function wrong5 {
+clear
 echo
 echo "          :(          "
 echo "          /|\         "
@@ -377,6 +391,7 @@ echo
 beginning5
 }
 function wrong6 {
+clear
 echo
 echo "          :(          "
 echo "          /|\         "
@@ -388,6 +403,7 @@ echo
 beginning6
 }
 function wrong7 {
+clear
 echo "           __________ "
 echo "           |        | "
 echo "          :(        | "
