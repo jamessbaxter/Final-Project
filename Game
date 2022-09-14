@@ -3,12 +3,16 @@
 ## This is the function that shows when you initially start or guess the right word
 
 function start {
+echo
+echo
 echo "              _ _ _ _ "
 echo
 echo "                      Four letter word!"
 }
 
 function win {
+echo
+echo
 echo "                  You've Won!"
 echo "                              The word was BASH"
 }
@@ -17,168 +21,224 @@ echo "                              The word was BASH"
 
 
 function letter1 {
+echo
+echo
 echo "                  b "
 echo "                      The letter B is in the word! Guess again!"
 beginning
 }
 
 function letter2 {
+echo
+echo
 echo "                  a "
 echo "                      The letter A is in the word! Guess again!"
 beginning
 }
 
 function letter3 {
+echo
+echo
 echo "                  s "
 echo "                      The letter S is in the word! Guess again!"
 beginning
 }
 
 function letter4 {
+echo
+echo
 echo "                  h "
 echo "                      The letter H is in the word! Guess again!"
 beginning
 }
 
 function letter11 {
+echo
+echo
 echo "                  b "
 echo "                      The letter B is in the word! Guess again!"
 beginning1
 }
 
 function letter21 {
+echo
+echo
 echo "                  a "
 echo "                      The letter A is in the word! Guess again!"
 beginning1
 }
 
 function letter31 {
+echo
+echo
 echo "                  s "
 echo "                      The letter S is in the word! Guess again!"
 beginning1
 }
 
 function letter41 {
+echo
+echo
 echo "                  h "
 echo "                      The letter H is in the word! Guess again!"
 beginning1
 }
 
 function letter12 {
+echo
+echo
 echo "                  b "
 echo "                      The letter B is in the word! Guess again!"
 beginning2
 }
 
 function letter22 {
+echo
+echo
 echo "                  a "
 echo "                      The letter A is in the word! Guess again!"
 beginning2
 }
 
 function letter32 {
+echo
+echo
 echo "                  s "
 echo "                      The letter S is in the word! Guess again!"
 beginning2
 }
 
 function letter42 {
+echo
+echo
 echo "                  h "
 echo "                      The letter H is in the word! Guess again!"
 beginning2
 }
 
 function letter13 {
+echo
+echo
 echo "                  b "
 echo "                      The letter B is in the word! Guess again!"
 beginning3
 }
 
 function letter23 {
+echo
+echo
 echo "                  a "
 echo "                      The letter A is in the word! Guess again!"
 beginning3
 }
 
 function letter33 {
+echo
+echo
 echo "                  s "
 echo "                      The letter S is in the word! Guess again!"
 beginning3
 }
 
 function letter43 {
+echo
+echo
 echo "                  h "
 echo "                      The letter H is in the word! Guess again!"
 beginning3
 }
 
 function letter14 {
+echo
+echo
 echo "                  b "
 echo "                      The letter B is in the word! Guess again!"
 beginning4
 }
 
 function letter24 {
+echo
+echo
 echo "                  a "
 echo "                      The letter A is in the word! Guess again!"
 beginning4
 }
 
 function letter34 {
+echo
+echo
 echo "                  s "
 echo "                      The letter S is in the word! Guess again!"
 beginning4
 }
 
 function letter44 {
+echo
+echo
 echo "                  h "
 echo "                      The letter H is in the word! Guess again!"
 beginning4
 }
 
 function letter15 {
+echo
+echo
 echo "                  b "
 echo "                      The letter B is in the word! Guess again!"
 beginning5
 }
 
 function letter25 {
+echo
+echo
 echo "                  a "
 echo "                      The letter A is in the word! Guess again!"
 beginning5
 }
 
 function letter35 {
+echo
+echo
 echo "                  s "
 echo "                      The letter S is in the word! Guess again!"
 beginning5
 }
 
 function letter45 {
+echo
+echo
 echo "                  h "
 echo "                      The letter H is in the word! Guess again!"
 beginning5
 }
 
 function letter16 {
+echo
+echo
 echo "                  b "
 echo "                      The letter B is in the word! Guess again!"
 beginning6
 }
 
 function letter26 {
+echo
+echo
 echo "                  a "
 echo "                      The letter A is in the word! Guess again!"
 beginning6
 }
 
 function letter36 {
+echo
+echo
 echo "                  s "
 echo "                      The letter S is in the word! Guess again!"
 beginning6
 }
 
 function letter46 {
+echo
+echo
 echo "                  h "
 echo "                      The letter H is in the word! Guess again!"
 beginning6
@@ -188,6 +248,8 @@ beginning6
 
 function beginning6 {
 start
+echo
+echo
 echo "          Please guess a letter or word"
 read userinput
 case $userinput in
@@ -201,12 +263,16 @@ esac
 }
 
 function fail6 {
+echo
+echo
 echo "          Ope that's not one of the letters :( "
 wrong7
 }
 
 function beginning5 {
 start
+echo
+echo
 echo "          Please guess a letter or word"
 read userinput
 case $userinput in
@@ -220,12 +286,16 @@ esac
 }
 
 function fail5 {
+echo
+echo
 echo "          Ope that's not one of the letters :( "
 wrong6
 }
 
 function beginning4 {
 start
+echo
+echo
 echo "          Please guess a letter or word"
 read userinput
 case $userinput in
@@ -239,12 +309,16 @@ esac
 }
 
 function fail4 {
+echo
+echo
 echo "          Ope that's not one of the letters :( "
 wrong5
 }
 
 function beginning3 {
 start
+echo
+echo
 echo "          Please guess a letter or word"
 read userinput
 case $userinput in
@@ -258,12 +332,16 @@ esac
 }
 
 function fail3 {
+echo
+echo
 echo "          Ope that's not one of the letters :( "
 wrong4
 }
 
 function beginning2 {
 start
+echo
+echo
 echo "          Please guess a letter or word"
 read userinput
 case $userinput in
@@ -277,12 +355,16 @@ esac
 }
 
 function fail2 {
+echo
+echo
 echo "          Ope that's not one of the letters :( "
 wrong3
 }
 
 function beginning1 {
 start
+echo
+echo
 echo "          Please guess a letter or word"
 read userinput
 case $userinput in
@@ -296,12 +378,16 @@ esac
 }
 
 function fail1 {
+echo
+echo
 echo "          Ope that's not one of the letters :( "
 wrong2
 }
 
 function beginning {
 start
+echo
+echo
 echo "          Please guess a letter or word"
 read userinput
 case $userinput in
@@ -315,6 +401,8 @@ esac
 }
 
 function fail {
+echo
+echo
 echo "          Ope that's not one of the letters :( "
 wrong1
 }
