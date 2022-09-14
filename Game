@@ -291,7 +291,8 @@ esac
 function fail6 {
 echo
 echo
-echo "          Ope that's not one of the letters :( "
+read userinput
+echo "          Ope $userinput is not one of the letters or the word :( "
 wrong7
 }
 
@@ -313,7 +314,8 @@ esac
 function fail5 {
 echo
 echo
-echo "          Ope that's not one of the letters :( "
+read userinput
+echo "          Ope $userinput is not one of the letters or the word :( "
 wrong6
 }
 
@@ -335,7 +337,8 @@ esac
 function fail4 {
 echo
 echo
-echo "          Ope that's not one of the letters :( "
+read userinput
+echo "          Ope $userinput is not one of the letters or the word :( "
 wrong5
 }
 
@@ -357,7 +360,8 @@ esac
 function fail3 {
 echo
 echo
-echo "          Ope that's not one of the letters :( "
+read userinput
+echo "          Ope $userinput is not one of the letters or the word :( "
 wrong4
 }
 
@@ -379,7 +383,8 @@ esac
 function fail2 {
 echo
 echo
-echo "          Ope that's not one of the letters :( "
+read userinput
+echo "          Ope $userinput is not one of the letters or the word :( "
 wrong3
 }
 
@@ -401,7 +406,8 @@ esac
 function fail1 {
 echo
 echo
-echo "          Ope that's not one of the letters :( "
+read userinput
+echo "          Ope $userinput is not one of the letters or the word :( "
 wrong2
 }
 
@@ -439,7 +445,8 @@ esac
 function fail {
 echo
 echo
-echo "          Ope that's not one of the letters :( "
+read userinput
+echo "          Ope $userinput is not one of the letters or the word :( "
 wrong1
 }
 
