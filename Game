@@ -25,7 +25,7 @@ echo
 start
 echo "                  b "
 echo "                      The letter B is in the word! Guess again!"
-beginning
+beginning2nd
 }
 
 function letter2 {
@@ -34,7 +34,7 @@ echo
 start
 echo "                  a "
 echo "                      The letter A is in the word! Guess again!"
-beginning
+beginning2nd
 }
 
 function letter3 {
@@ -43,7 +43,7 @@ echo
 start
 echo "                  s "
 echo "                      The letter S is in the word! Guess again!"
-beginning
+beginning2nd
 }
 
 function letter4 {
@@ -52,7 +52,7 @@ echo
 start
 echo "                  h "
 echo "                      The letter H is in the word! Guess again!"
-beginning
+beginning2nd
 }
 
 function letter11 {
@@ -407,6 +407,21 @@ wrong2
 
 function beginning {
 start
+echo
+echo
+echo "          Please guess a letter or word"
+read userinput
+case $userinput in
+    b) letter1 ;;
+    a) letter2 ;;
+    s) letter3 ;;
+    h) letter4 ;;
+    bash) win ;;
+    *)fail ;;
+esac
+}
+
+function beginning2nd {
 echo
 echo
 echo "          Please guess a letter or word"
