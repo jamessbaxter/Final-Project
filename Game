@@ -5,9 +5,8 @@
 function start {
 echo
 echo
-echo "              _ _ _ _ "
+echo "              _ _ _ _     Four letter word!"
 echo
-echo "                      Four letter word!"
 }
 
 function win {
@@ -250,7 +249,7 @@ function beginning6 {
 start
 echo
 echo
-echo "          Please guess a letter or word"
+echo "          Please guess another letter or word"
 read userinput
 case $userinput in
     b) letter16 ;;
@@ -273,7 +272,7 @@ function beginning5 {
 start
 echo
 echo
-echo "          Please guess a letter or word"
+echo "          Please guess another letter or word"
 read userinput
 case $userinput in
     b) letter15 ;;
@@ -296,7 +295,7 @@ function beginning4 {
 start
 echo
 echo
-echo "          Please guess a letter or word"
+echo "          Please guess another letter or word"
 read userinput
 case $userinput in
     b) letter14 ;;
@@ -319,7 +318,7 @@ function beginning3 {
 start
 echo
 echo
-echo "          Please guess a letter or word"
+echo "          Please guess another letter or word"
 read userinput
 case $userinput in
     b) letter13 ;;
@@ -342,7 +341,7 @@ function beginning2 {
 start
 echo
 echo
-echo "          Please guess a letter or word"
+echo "          Please guess another letter or word"
 read userinput
 case $userinput in
     b) letter12 ;;
@@ -365,7 +364,7 @@ function beginning1 {
 start
 echo
 echo
-echo "          Please guess a letter or word"
+echo "          Please guess another letter or word"
 read userinput
 case $userinput in
     b) letter11 ;;
