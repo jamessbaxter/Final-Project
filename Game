@@ -4,6 +4,7 @@
 
 function start {
 echo "              _ _ _ _ "
+echo
 echo "                      Four letter word!"
 }
 
@@ -329,6 +330,7 @@ echo
 echo
 echo
 echo
+beginning1
 }
 function wrong2 {
 echo
@@ -339,6 +341,7 @@ echo
 echo
 echo
 echo
+beginning2
 }
 function wrong3 {
 echo
@@ -349,6 +352,7 @@ echo
 echo
 echo
 echo
+beginning3
 }
 function wrong4 {
 echo
@@ -359,6 +363,7 @@ echo
 echo
 echo
 echo
+beginning4
 }
 function wrong5 {
 echo
@@ -379,6 +384,7 @@ echo
 echo
 echo
 echo
+beginning5
 }
 function wrong7 {
 echo "           __________ "
@@ -391,6 +397,8 @@ echo "                    | "
 echo "                    | "
 echo "                    | "
 echo "      YOU LOSE!!      "
+echo
+echo "   The word was BASH"
 }
 beginning
 
