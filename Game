@@ -374,6 +374,7 @@ echo
 echo
 echo
 echo
+beginning5
 }
 function wrong6 {
 echo
@@ -384,7 +385,7 @@ echo
 echo
 echo
 echo
-beginning5
+beginning6
 }
 function wrong7 {
 echo "           __________ "
