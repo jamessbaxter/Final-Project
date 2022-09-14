@@ -22,6 +22,7 @@ echo "                              The word was BASH"
 function letter1 {
 echo
 echo
+start
 echo "                  b "
 echo "                      The letter B is in the word! Guess again!"
 beginning
@@ -30,6 +31,7 @@ beginning
 function letter2 {
 echo
 echo
+start
 echo "                  a "
 echo "                      The letter A is in the word! Guess again!"
 beginning
@@ -38,6 +40,7 @@ beginning
 function letter3 {
 echo
 echo
+start
 echo "                  s "
 echo "                      The letter S is in the word! Guess again!"
 beginning
@@ -46,6 +49,7 @@ beginning
 function letter4 {
 echo
 echo
+start
 echo "                  h "
 echo "                      The letter H is in the word! Guess again!"
 beginning
@@ -54,6 +58,7 @@ beginning
 function letter11 {
 echo
 echo
+start
 echo "                  b "
 echo "                      The letter B is in the word! Guess again!"
 beginning1
@@ -62,6 +67,7 @@ beginning1
 function letter21 {
 echo
 echo
+start
 echo "                  a "
 echo "                      The letter A is in the word! Guess again!"
 beginning1
@@ -70,6 +76,7 @@ beginning1
 function letter31 {
 echo
 echo
+start
 echo "                  s "
 echo "                      The letter S is in the word! Guess again!"
 beginning1
@@ -78,6 +85,7 @@ beginning1
 function letter41 {
 echo
 echo
+start
 echo "                  h "
 echo "                      The letter H is in the word! Guess again!"
 beginning1
@@ -86,6 +94,7 @@ beginning1
 function letter12 {
 echo
 echo
+start
 echo "                  b "
 echo "                      The letter B is in the word! Guess again!"
 beginning2
@@ -94,6 +103,7 @@ beginning2
 function letter22 {
 echo
 echo
+start
 echo "                  a "
 echo "                      The letter A is in the word! Guess again!"
 beginning2
@@ -102,6 +112,7 @@ beginning2
 function letter32 {
 echo
 echo
+start
 echo "                  s "
 echo "                      The letter S is in the word! Guess again!"
 beginning2
@@ -110,6 +121,7 @@ beginning2
 function letter42 {
 echo
 echo
+start
 echo "                  h "
 echo "                      The letter H is in the word! Guess again!"
 beginning2
@@ -118,6 +130,7 @@ beginning2
 function letter13 {
 echo
 echo
+start
 echo "                  b "
 echo "                      The letter B is in the word! Guess again!"
 beginning3
@@ -126,6 +139,7 @@ beginning3
 function letter23 {
 echo
 echo
+start
 echo "                  a "
 echo "                      The letter A is in the word! Guess again!"
 beginning3
@@ -134,6 +148,7 @@ beginning3
 function letter33 {
 echo
 echo
+start
 echo "                  s "
 echo "                      The letter S is in the word! Guess again!"
 beginning3
@@ -142,6 +157,7 @@ beginning3
 function letter43 {
 echo
 echo
+start
 echo "                  h "
 echo "                      The letter H is in the word! Guess again!"
 beginning3
@@ -150,6 +166,7 @@ beginning3
 function letter14 {
 echo
 echo
+start
 echo "                  b "
 echo "                      The letter B is in the word! Guess again!"
 beginning4
@@ -158,6 +175,7 @@ beginning4
 function letter24 {
 echo
 echo
+start
 echo "                  a "
 echo "                      The letter A is in the word! Guess again!"
 beginning4
@@ -166,6 +184,7 @@ beginning4
 function letter34 {
 echo
 echo
+start
 echo "                  s "
 echo "                      The letter S is in the word! Guess again!"
 beginning4
@@ -174,6 +193,7 @@ beginning4
 function letter44 {
 echo
 echo
+start
 echo "                  h "
 echo "                      The letter H is in the word! Guess again!"
 beginning4
@@ -182,6 +202,7 @@ beginning4
 function letter15 {
 echo
 echo
+start
 echo "                  b "
 echo "                      The letter B is in the word! Guess again!"
 beginning5
@@ -190,6 +211,7 @@ beginning5
 function letter25 {
 echo
 echo
+start
 echo "                  a "
 echo "                      The letter A is in the word! Guess again!"
 beginning5
@@ -198,6 +220,7 @@ beginning5
 function letter35 {
 echo
 echo
+start
 echo "                  s "
 echo "                      The letter S is in the word! Guess again!"
 beginning5
@@ -206,6 +229,7 @@ beginning5
 function letter45 {
 echo
 echo
+start
 echo "                  h "
 echo "                      The letter H is in the word! Guess again!"
 beginning5
@@ -214,6 +238,7 @@ beginning5
 function letter16 {
 echo
 echo
+start
 echo "                  b "
 echo "                      The letter B is in the word! Guess again!"
 beginning6
@@ -222,6 +247,7 @@ beginning6
 function letter26 {
 echo
 echo
+start
 echo "                  a "
 echo "                      The letter A is in the word! Guess again!"
 beginning6
@@ -230,6 +256,7 @@ beginning6
 function letter36 {
 echo
 echo
+start
 echo "                  s "
 echo "                      The letter S is in the word! Guess again!"
 beginning6
@@ -238,6 +265,7 @@ beginning6
 function letter46 {
 echo
 echo
+start
 echo "                  h "
 echo "                      The letter H is in the word! Guess again!"
 beginning6
@@ -246,7 +274,6 @@ beginning6
 ##These are the ladder steps to be able to go from the start of the hangman to the end of the hangman on failed attempts
 
 function beginning6 {
-start
 echo
 echo
 echo "          Please guess another letter or word"
@@ -269,7 +296,6 @@ wrong7
 }
 
 function beginning5 {
-start
 echo
 echo
 echo "          Please guess another letter or word"
@@ -292,7 +318,6 @@ wrong6
 }
 
 function beginning4 {
-start
 echo
 echo
 echo "          Please guess another letter or word"
@@ -315,7 +340,6 @@ wrong5
 }
 
 function beginning3 {
-start
 echo
 echo
 echo "          Please guess another letter or word"
@@ -338,7 +362,6 @@ wrong4
 }
 
 function beginning2 {
-start
 echo
 echo
 echo "          Please guess another letter or word"
@@ -361,7 +384,6 @@ wrong3
 }
 
 function beginning1 {
-start
 echo
 echo
 echo "          Please guess another letter or word"
